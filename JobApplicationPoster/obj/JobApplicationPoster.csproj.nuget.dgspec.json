@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emily\\Desktop\\CSC390 Developing ASP.NET Web Applications\\JobApplicationPoster\\JobApplicationPoster\\JobApplicationPoster.csproj": {}
+    "C:\\Users\\hyoil\\Documents\\GitHub\\JobApplicationPoster\\JobApplicationPoster\\JobApplicationPoster.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emily\\Desktop\\CSC390 Developing ASP.NET Web Applications\\JobApplicationPoster\\JobApplicationPoster\\JobApplicationPoster.csproj": {
+    "C:\\Users\\hyoil\\Documents\\GitHub\\JobApplicationPoster\\JobApplicationPoster\\JobApplicationPoster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emily\\Desktop\\CSC390 Developing ASP.NET Web Applications\\JobApplicationPoster\\JobApplicationPoster\\JobApplicationPoster.csproj",
+        "projectUniqueName": "C:\\Users\\hyoil\\Documents\\GitHub\\JobApplicationPoster\\JobApplicationPoster\\JobApplicationPoster.csproj",
         "projectName": "JobApplicationPoster",
-        "projectPath": "C:\\Users\\emily\\Desktop\\CSC390 Developing ASP.NET Web Applications\\JobApplicationPoster\\JobApplicationPoster\\JobApplicationPoster.csproj",
-        "packagesPath": "C:\\Users\\emily\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emily\\Desktop\\CSC390 Developing ASP.NET Web Applications\\JobApplicationPoster\\JobApplicationPoster\\obj\\",
+        "projectPath": "C:\\Users\\hyoil\\Documents\\GitHub\\JobApplicationPoster\\JobApplicationPoster\\JobApplicationPoster.csproj",
+        "packagesPath": "C:\\Users\\hyoil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hyoil\\Documents\\GitHub\\JobApplicationPoster\\JobApplicationPoster\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\emily\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\hyoil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
