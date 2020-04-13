@@ -27,17 +27,17 @@ namespace JobApplicationPoster
             services.AddControllersWithViews();
             services.AddMvc();
             services.AddSingleton<IStudentProvider, StudentProvider>();
-            // Use SQL Database if in Azure, otherwise, use SQLite
-            //if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
-            //    services.AddDbContext<MyDatabaseContext>(options =>
-            //            options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
-            //else
-            //    services.AddDbContext<MyDatabaseContext>(options =>
-            //            options.UseSqlite("Data Source=localdatabase.db"));
+            //Use SQL Database if in Azure, otherwise, use SQLite
+            if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
+                services.AddDbContext<MyDatabaseContext>(options =>
+                        options.UseSqlServer(Configuration.GetConnectionString("Server=tcp:jobapplicationposter.database.windows.net,1433;Initial Catalog=JobApplicationPoster;Persist Security Info=False;User ID=jobappadmin;Password=MSSA@&poster;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")));
+            else
+                services.AddDbContext<MyDatabaseContext>(options =>
+                        options.UseSqlite("Data Source=localdatabase.db"));
 
-            //// Automatically perform database migration
-            //services.BuildServiceProvider().GetService<MyDatabaseContext>().Database.Migrate();
-            //test
+            // Automatically perform database migration
+            services.BuildServiceProvider().GetService<MyDatabaseContext>().Database.Migrate();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
